@@ -11,4 +11,5 @@ def perceptron():
     for x,w in zip(İnputs,weights)  :
         weighted_sum+=x*w
     return step(weighted_sum)  
-print(perceptron())            
+output= perceptron()
+print("The result is: ", output)            
